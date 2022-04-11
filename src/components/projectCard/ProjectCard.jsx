@@ -18,7 +18,7 @@ export default function ProjectCard({id, name, budget, category, handleRemove}) 
             <span className={`${category.toLowerCase()}`}></span> {category}
         </Cardtext>
         <Actions>
-            <Alink to={`/projects/${id}`}>
+            <Alink to={`/project/${id}`}>
                 <p><BsPencil/> Editar</p>
             </Alink>
             <Alink to="/">

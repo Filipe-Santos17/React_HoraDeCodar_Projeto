@@ -9,11 +9,12 @@
       },
       "cost": 0,
       "services": [],
-      "id": 3
+      "id": 3,
+      "": "4565"
     },
     {
       "name": "Projeto Teste 1",
-      "valor":"50000",
+      "valor": "50000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
