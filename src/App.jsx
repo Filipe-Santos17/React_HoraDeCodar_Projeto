@@ -1,7 +1,7 @@
 import { BrowserRouter as BRouter, Routes, Route } from "react-router-dom"
 import { Global } from "./style";
 import { Navbar, Footer, Container } from "./components";
-import { Home, Company, Contact, Project, Projects} from "./Pages"
+import { Home, Company, Contact, Project, Projects, ProjectId} from "./Pages"
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/newproject" element={<Project/>}/>
           <Route path="/projects" element={<Projects/>}/>
+          <Route path="/project/:id" element={<ProjectId/>}/>
         </Routes>
       </Container>
       <Footer/>
